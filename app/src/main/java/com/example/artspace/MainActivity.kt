@@ -61,7 +61,6 @@ fun ArtSpaceApp() {
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            // Image Card
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -80,7 +79,6 @@ fun ArtSpaceApp() {
                 )
             }
 
-            // Artwork Description Box
             Card(
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFFE6E6EB)
@@ -106,7 +104,6 @@ fun ArtSpaceApp() {
                 }
             }
 
-            // Buttons
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly
